@@ -10,17 +10,17 @@ const commentSchema =  new mongoose.Schema(
             ref:"Post",
         },
 
-        user:{
+        body:{
             type:String,
             required:true
-        },
+        },  
 
-        body:{
+        user:{
             type:String,
             required:true
         }
 
-
+    
     }
 )
 
