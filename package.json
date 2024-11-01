@@ -1,0 +1,26 @@
+{
+  "name": "blogapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start",
+    "dev": "nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinmay17-bot/BlogApp.git"
+  },
+  "author": "Chinmay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinmay17-bot/BlogApp/issues"
+  },
+  "homepage": "https://github.com/chinmay17-bot/BlogApp#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.3",
+    "nodemon": "^3.1.7"
+  }
+}
